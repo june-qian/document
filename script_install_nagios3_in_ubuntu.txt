@@ -1,0 +1,11 @@
+service nagios3 status
+service nagios3 stop
+service apache2 stop
+apt-get remove nagios3
+apt-get remove apache2
+apt-get autoremove
+dpkg -l |grep nagios
+ap-get remove //非rc开头的数据包
+apt-get autoremove
+//这就清理干净了。
+//finished to clean installed nagios3
