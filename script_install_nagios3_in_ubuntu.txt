@@ -1,3 +1,8 @@
+///
+/// by june/qq327689069
+///
+
+/// remove nagios3
 service nagios3 status
 service nagios3 stop
 service apache2 stop
@@ -9,3 +14,9 @@ ap-get remove //非rc开头的数据包
 apt-get autoremove
 //这就清理干净了。
 //finished to clean installed nagios3
+
+/// install nagios3 on ubuntu16.4
+apt-get install javascript-common  
+apt-get install php
+apt-get install libapache2-mod-php
+apt-get install -y nagios3
