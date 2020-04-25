@@ -10,7 +10,7 @@ apt-get remove nagios3
 apt-get remove apache2
 apt-get autoremove
 dpkg -l |grep nagios
-ap-get remove //非rc开头的数据包
+ap-get remove //非rc开头的安装包  // package of not rc type
 apt-get autoremove
 //这就清理干净了。
 //finished to clean installed nagios3
